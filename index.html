@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Let's rock</title>
+    <style type="text/css">
+      body {
+        margin: 0;
+        background-color: gray;
+      }
+      canvas {/*
+        width: 100vw;
+        height: 75vh;
+        display: block;
+        background-color: white;
+      }*/
+    </style>
+</head>
+
+
+<body>
+  <center  style="background-color: grey;"><canvas id="c" width='1000' height='550'></canvas></center>
+  <script type="text/javascript" src="utils.js"></script>
+  <script type="text/javascript" src="model.js"></script>
+  <script type="text/javascript" src="texture.js"></script>
+  <script type="text/javascript" src="webgl-obj-loader.min.js"></script>
+  <script type="text/javascript" src="quaternion.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <center><h1>Use the following keys to fly around the Solar System!</h1></center>
+  <center>
+    <table border="1">
+    <tr>
+      <td>Roll left: <B>Q</B></td>
+      <td>Forward: <B>W</B></td>
+      <td>Roll Right: <B>E</B></td>
+      <td>Strafe Up: <B>R</B></td>
+      <td>&nbsp;</td>
+      <td>look up: <B>Up</B> Arrow</td>
+      <td>&nbsp;</td>
+      <td colspan="7">Sun: <B>0</B></td>
+      <td>Base: <B>Esc</B></td>
+    </tr>
+    <tr>
+      <td>Strafe left: <B>A</B></td>
+      <td>Backward: <B>S</B></td>
+      <td>Strafe Right: <B>D</B></td>
+      <td>Strafe Down: <B>F</B></td>
+      <td>look left: <B>Left</B> Arrow</td>
+      <td>look down: <B>Down</B> Arrow</td>
+      <td>look right: <B>Right</B> Arrow</td>
+      <td>Mercury: <B>1</B></td>
+      <td>Venus: <B>2</B></td>
+      <td>Earth: <B>3</B></td>
+      <td>Mars: <B>4</B></td>
+      <td>Jupiter: <B>5</B></td>
+      <td>Saturn: <B>6</B></td>
+      <td>Uranus: <B>7</B></td>
+      <td>Neptune: <B>8</B></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <B>SPACE BAR</B>: TRUBO MODE
+      </td>
+      <td colspan="3"><B>BACKSPACE</B>: Lock on the Sun</td>
+      <td colspan="8">Moon: <B>M</B></td>
+    </tr>
+    <table/>
+  </center>
+</body>
+
+</html>
